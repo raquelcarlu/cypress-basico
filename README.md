@@ -19,7 +19,7 @@ Para instalar as dependências do projeto, siga os passos abaixo:
 2. Navegue até o diretório do projeto:
 
     ```bash
-   cd cypress-basico-v2
+   cd cypress-basico
 
 3. Instale as dependencias do projeto usando npm:
     
