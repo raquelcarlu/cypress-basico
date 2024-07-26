@@ -11,7 +11,7 @@ describe('Central de Atendimento ao Cliente TAT', function () {
     })
 
 
-    it.only('preenche os campos obrigatórios e envia o formulário', function () {
+    it('preenche os campos obrigatórios e envia o formulário', function () {
         const longText = 'Lorem ipsum dolor sit amet consectetur adipiscing elit gravida, eleifend lacinia rhoncus natoque eu litora molestie, fringilla etiam vel dictumst habitasse fermentum netus. Potenti imperdiet dignissim cras mi gravida sociosqu rutrum inceptos neque, proin pulvinar cum nascetur at felis natoque in est diam, laoreet blandit nisi consequat vestibulum sodales conubia auctor. Blandit parturient venenatis tempor sed feugiat ante donec accumsan ac vestibulum, augue inceptos magna eget felis tincidunt commodo luctus porta laoreet, class ornare senectus nam fermentum pellentesque torquent hendrerit aptent.'
         const THREE_HOURS_IN_MS = 3000;
         cy.clock()
